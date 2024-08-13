@@ -26,19 +26,19 @@ body{
         margin: 0px;
     }
 }
-@media only screen and (width >= 576px) {
+@media only screen and (768px > width >= 576px) {
     .container{
         max-width: 520px;
         background-color: green;
     }
 }
-@media only screen and (width >= 768px){
+@media only screen and (992px > width >= 768px){
     .container{
         max-width: 720px;
         background-color: yellow;
     }
 }
-@media only screen and (width >= 992px){
+@media only screen and (1200px > width >= 992px){
     .container{
         max-width: 960px;
         background-color: brown;
